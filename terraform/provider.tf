@@ -11,7 +11,7 @@ terraform {
   }
 
     backend "s3" {
-      bucket         = "app-notifier-lucas"
+      bucket         = "app-notifier-lucas-2"
       key            = "terraform.tfstate"
       dynamodb_table = "app-notifier-lucas"
       region         = "us-east-1"
